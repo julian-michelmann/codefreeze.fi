@@ -3,5 +3,4 @@ sass:
     style: :compressed
     sass_dir: styles/_snippets
 collections:
-- participants
 - status

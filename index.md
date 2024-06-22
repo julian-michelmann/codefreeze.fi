@@ -33,10 +33,9 @@ Did we mention that this place is above the arctic circle? Which is pretty cool.
 
 ## Registration
 
-- Read and accept the [Code of Conduct](#code-of-conduct).
+- Read the [Code of Conduct](#code-of-conduct).
 - Book a room or cabin by email (remember to mention _Codefreeze_; see [Accommodation](#accommodation)), or ask for a roommate in the [Matrix channel for the event](/chat).
 - Make travel arrangements to Kiilopää (see [Directions](#directions)).
-- You may add yourself as a [participant](#participants) to the Codefreeze website by creating a [pull request](https://github.com/codefreezefi/codefreeze.fi#readme) or using the [registration form](https://forms.gle/cT6CfzgWNMNrH5nm8). Be aware, the form sends your data to Google!
 - You may also add your arrival and reparture times to [Trello](#trello).
 
 ## Past Events
@@ -218,72 +217,6 @@ Reindeer caravan will take you in to the woods. Moon and stars will guide your w
 - Snowmobile Safari to Reindeer Farm
 
 For more information about the safaris, including prices, see the brochure here or visit [the official website](https://www.kiilopaa.fi/en).
-
-<section id="participants">
-
-<h2>{{site.participants|size}} <del>Speakers</del> Participants</h2>
-
-<p>
-    <a href="https://github.com/codefreezefi/codefreeze.fi#readme" target="_blank" rel="noopener noreferrer"> Register yourself</a> with a pull request to be among the first people to receive details about this unique conference! As an alternative use our <a href="https://forms.gle/cT6CfzgWNMNrH5nm8" target="_blank" rel="noopener noreferrer">registration form</a> (be aware, your personal data will be sent to Google). 
-</p>
-
-<ul class="participants">
-  <li>
-    <a href="https://github.com/codefreezefi/codefreeze.fi#readme" target="_blank" rel="noopener noreferrer" class="add">
-        <div class="photo">
-            <img src="{{ site.baseurl }}/images/user-add.jpg" alt="{{ participant.name }}" />
-        </div>
-    </a>
-    <h3>You?</h3>
-  </li>
-
-<!-- {% assign image_host = site.url | append:site.baseurl %} -->
-
-{% for participant in site.participants %}
-{% assign image_url = "/images/avatar.jpg" | prepend:site.baseurl  %}
-{% if participant.image != null %}
-{% assign escaped_image = participant.image | uri_escape %}
-{% assign image_url = "https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;gadget=a&amp;rewriteMime=image/*&amp;refresh=31536000&amp;resize_w=156&amp;url=" | append:escaped_image %}
-{% endif %}
-
-  <li>
-    {% if participant.link != null %}<a href="{{ participant.link }}" rel="noopener noreferrer">{% endif %}
-    <div class="photo">
-        <img src="{{ image_url }}" alt="{{ participant.name }}" />
-    </div>
-    {% if participant.link != null %}</a>{% endif %}
-    <h3>
-        {{ participant.name }}
-        {% if participant.pronouns != null %}
-        <small class="pronouns">({{ participant.pronouns }})</small>
-        {% endif %}
-    </h3>
-    <nav>
-    {% if participant.link != null %}<a href="{{ participant.link }}" rel="noopener noreferrer">
-        <i class="fas fa-home"></i>
-    </a>{% endif %}
-    {% if participant.mastodon != null %}
-      <a href="{{ participant.mastodon }}" rel="noopener noreferrer">
-        <img src="{{ site.baseurl }}/logos/mastodon.svg" alt="mastodon" class="icon" />
-      </a>
-    {% endif %}
-    {% if participant.linkedin != null %}
-      <a href="{{ participant.linkedin }}" rel="noopener noreferrer">
-        <i class="fab fa-linkedin"></i></a>
-    {% endif %}
-    {% if participant.matrix != null %}
-      <a href="https://matrix.to/#/{{ participant.matrix }}" rel="noopener noreferrer">
-        <img src="{{ site.baseurl }}/logos/matrix.svg" alt="matrix" class="icon" />
-      </a>
-    {% endif %}
-    </nav>
-    {% if participant.content != null %}<div class="description">{{ participant.content }}</div>{% endif %}
-  </li>
-{% endfor %}
-
-</ul>
-
-</section>
 
 {% include faq.md %}
 
