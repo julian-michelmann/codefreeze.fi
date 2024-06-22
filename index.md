@@ -36,15 +36,15 @@ Did we mention that this place is above the arctic circle? Which is pretty cool.
 - Read the [Code of Conduct](#code-of-conduct).
 - Book a room or cabin by email (remember to mention _Codefreeze_; see [Accommodation](#accommodation)), or ask for a roommate in the [Matrix channel for the event](/chat).
 - Make travel arrangements to Kiilopää (see [Directions](#directions)).
-- You may also add your arrival and reparture times to [Trello](#trello).
+- You may also add your arrival and reparture times to [our session planner](#sessions).
 
 ## Past Events
 
 Since 2015, Codefreeze has happened every year around January. In 2019 we had about 35 participants plus their family and friends, 40 in 2020, 50 participants in 2023 and around 80 in 2024.
 
-### <a name="trello"></a>Sessions
+### <a name="sessions"></a>Sessions
 
-To get an idea of what happens at Codefreeze, you can find the conference schedules on Trello. Most _Codefreeze_ topics (green) have additional information in links in the cards.
+To get an idea of what happens at Codefreeze, you can find the conference schedules on Wekan (2025) and Trello (until 2024). Most _Codefreeze_ topics (green) have additional information in links in the cards.
 
 The Trello board is also used for coordinating travel arrangements and planning the next Codefreeze, so it's good to check it out in advance.
 
@@ -54,6 +54,7 @@ The Trello board is also used for coordinating travel arrangements and planning 
 - [2020](https://trello.com/b/SsjzVKGZ/codefreeze-2020)
 - [2023](https://trello.com/b/nJtEY0ns/codefreeze-2023)
 - [2024](https://trello.com/b/OqRDk9dz/codefreeze-2024)
+- [2025](https://board.codefreeze.fi/b/sPxoRwncMK4cbKMPs/codefreeze-2025)
 
 ### Photos
 
