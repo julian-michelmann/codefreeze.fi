@@ -6,7 +6,7 @@ Codefreeze isn't an officially organised event.
 For enforcement of this Code of Conduct, we only have official authority of the private accommodation we are using for sessions and the activities we organise.
 With everything else, we will try to work on enforcement with the Suomen Latu staff and local authorities.
 This is still a public space used by non-participants as well, please don't assume that everyone has read or will follow this Code of Conduct.
-This Code of Conduct applies to the event itself, and to all digital spaces that are related to the event, such as GitHub, Slack, Matrix and Trello.
+This Code of Conduct applies to the event itself, and to all digital spaces that are related to the event, such as GitHub, Slack, Matrix, Trello, and Wekan.
 
 ### Inclusiveness
 

@@ -3,19 +3,7 @@ codefreeze.fi
 
 Welcome to CodeFreeze - a different kind of conference.
 
-
-## Registration
-
-In order to register yourself as a participant:
-
- * Fork this github repository
- * Create a new file under <code>_participants</code>
- * Copy the FrontMatter from <code>_participants/_template.md</code>
- * Add your relevant information
- * Create a pull request, and your name and picture will be shown on [codefreeze.fi](https://codefreeze.fi/#participants)
-
-
-## Updating the site (for more advanced changes)
+## Updating the site
 
 I highly encourage to test the site with Jekyll on your computer, if doing any (major) changes. GitHub has good instructions for [using Jekyll with GitHub Pages](https://help.github.com/en/articles/using-jekyll-as-a-static-site-generator-with-github-pages).
 
